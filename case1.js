@@ -1,4 +1,3 @@
-{    // case no 1
     var angka1 = prompt('Masukan Angka 1 : ');
     var angka2 = prompt('Masukan Angka 2 : ');
 
@@ -7,4 +6,3 @@
 
     alert(`Kuadrat ${angka1} dan ${angka2} adalah ${n}`)
     alert(`Pembagian ${angka1} / ${angka2} adalah ${b}`)
-}

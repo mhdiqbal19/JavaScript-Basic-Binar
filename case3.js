@@ -1,4 +1,3 @@
-{ 
     const bulan = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
     const sekarang = new Date()
@@ -11,4 +10,3 @@
      document.writeln(`<h3>Tanggal Sekarang : ${sekarang.getDate()} ${bulan[sekarang.getMonth()]} ${sekarang.getFullYear()}</h3>`)
      document.writeln('<br>')
      document.writeln(`<h3>Tanggal Besok : ${besok.getDate()} ${bulan[besok.getMonth()]} ${besok.getFullYear()}</h3>`)
- }

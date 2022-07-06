@@ -2,7 +2,6 @@ const bulan = ["January","February","March","April","May","June","July","August"
 var start = new Date();
 
 var end = new Date(new Date().getTime()+(540*24*60*60*1000));
-//console.info(end)
 
 var loop = new Date(start);
 while(loop <= end){        
